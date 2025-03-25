@@ -95,7 +95,7 @@ body{
     align-items: center;
     padding: 1.4rem 7%;
     background-color: rgba(1, 1, 1, 0.8);
-    border-bottom: 1px solid #7d4242;
+    border-bottom: 1px solid #ffffff;
     position: fixed;
     top: 0;
     left: 0;
@@ -109,6 +109,7 @@ body{
     font-weight: 700;
     color: #fff;
     font-style: italic;
+    font-family: "Goudy Bookletter 1911", sans-serif;
 }
 
 .navbar .logo span{
