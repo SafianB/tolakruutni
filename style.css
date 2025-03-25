@@ -39,6 +39,7 @@ body{
     /* max-width: 60rem; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .hero .contents h1{
@@ -49,18 +50,26 @@ body{
     /* mix-blend-mode: difference; */
 }
 
+.contents h1:hover{
+    background-color: var(--primary);
+    color: var(--bg);
+    border-radius: 10px;
+}
 .conten1{
     max-width: 20rem; 
     box-shadow: 0px 0px 20px -10px;
     text-align: center;
+    padding: 20px;
     
 }
+
 
 .conten2{
     max-width: 20rem; 
     /* margin-top: -10rem; */
     text-align: center;
     box-shadow: 0px 0px 20px -10px;
+    padding: 20px;
 }
 
 .galeri{
@@ -68,12 +77,18 @@ body{
     /* margin-top: 15rem; */
     box-shadow: 0px 0px 20px -10px;
     text-align: center;
+    padding: 20px;
 }
-
-.art {
+.galeri1{
+    max-width: 20rem;
+    /* margin-top: 15rem; */
     box-shadow: 0px 0px 20px -10px;
     text-align: center;
+    padding: 20px;
 }
+
+
+
 
 
 
