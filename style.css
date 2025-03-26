@@ -197,6 +197,21 @@ body{
     
 }
 
+.draft{
+    color: rgb(0, 0, 0);
+    background-color: beige;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 5px;
+}
+
+.draft:hover{
+    color: beige;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
 /* galeri */
 
 .dokumentasi{
