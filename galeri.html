@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tolakruutni</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +18,68 @@
         <div class="navbar-nav">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
-          <a href="galeri.html">Dokumentasi</a>
-          <a href="galeri.html">Art</a>
+          <a href="#dokumentasi">Dokumentasi</a>
+          <a href="#Art">Art</a>
         </div>
         
         <div class="navbar-extra">
           <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
-
-        <!-- galeri -->
-         
       </nav>
-      <script>
+
+      <!-- galeri -->
+       <section class="dokumentasi" id="dokumentasi">
+        <!-- The grid: four columns -->
+                <div class="row">
+                    <div class="column">
+                    <img src="Gm3yRhRaoAACSaP.jpeg" alt="Malang" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="Surabaya.jpeg" alt="Surabaya" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="bekasi.jpeg" alt="Bekasi" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="prambowopembonkk.jpeg" alt="GGWP" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="Batam.jpeg" alt="Batam" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="prambowopembonkk.jpeg" alt="GGWP" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="2.jpeg" alt="GGWP" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="Malang.jpeg" alt="Malang" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                    <img src="asu.jpeg" alt="DPR ASU" onclick="myFunction(this);">
+                    </div>
+
+                </div>
+                
+                <!-- The expanding image container -->
+                <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:100%">
+                
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                </div>
+       </section>
+
+        <!--Art  -->
+        <section class="art" id="art">
+                
+        </section>
+       
+       <script>
         feather.replace();
     </script>
     <script src="script.js"></script>
