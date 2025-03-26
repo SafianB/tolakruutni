@@ -250,5 +250,10 @@ body{
     .navbar .navbar-nav a:hover::after{
         transform: scaleX(0.2);
     }
+    
+    .fakta{
+        max-width: 0rem;
+        
+    }
 }
 
